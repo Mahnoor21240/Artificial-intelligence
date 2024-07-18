@@ -1,2 +1,1 @@
-
-# Artificial-intelligence
+AI LABS
