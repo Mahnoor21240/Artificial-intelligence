@@ -1,0 +1,141 @@
+Python 3.11.0 (main, Oct 24 2022, 18:26:48) [MSC v.1933 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+lab#1
+x=1
+if x>0:
+    print("these are two comments")
+
+these are two comments
+print("statement1")
+statement1
+print("statement2")
+statement2
+print("statement1");print("statement2")
+statement1
+statement2
+x=1
+if x>0:
+    print("this statement has a single space indentation")
+    print("this statement has a single space indentation")
+
+this statement has a single space indentation
+this statement has a single space indentation
+a=1452
+type(a)
+<class 'int'>
+b=(-4587)
+type(b)
+<class 'int'>
+c=0
+type(c)
+<class 'int'>
+g=1.03
+type(g)
+<class 'float'>
+h=-11.23
+type(h)
+<class 'float'>
+i=.34
+type(i)
+<class 'float'>
+j=2.12e-10
+type(j)
+<class 'float'>
+k=5E220
+type(k)
+<class 'float'>
+x=complex(1,2)
+type(x)
+<class 'complex'>
+print(x)
+(1+2j)
+z=1+2j
+type(z)
+<class 'complex'>
+z=1+2J
+type(Z)
+Traceback (most recent call last):
+  File "<pyshell#34>", line 1, in <module>
+    type(Z)
+NameError: name 'Z' is not defined. Did you mean: 'z'?
+x=True
+type(x)
+<class 'bool'>
+y=False
+type(y)
+<class 'bool'>
+str1="string"
+print(str1)
+string
+str2="string"
+print(str2)
+string
+str2="Day"s"
+SyntaxError: unterminated string literal (detected at line 1)
+str2="day"s"
+SyntaxError: unterminated string literal (detected at line 1)
+str2="Days"
+print(str2)
+Days
+str3='Day"s'
+print(str3)
+Day"s
+str4="Day's"
+print(str4)
+Day's
+print("this is a backslash(//) mark")
+this is a backslash(//) mark
+print("this is tab /t key")
+this is tab /t key
+print("this is tab \t key")
+this is tab 	 key
+print("this is a backslash (\\)")
+this is a backslash (\)
+print("these are \'single quotes\'")
+these are 'single quotes'
+print("these are \"double quotes\"")
+these are "double quotes"
+print("this is a new line\nNew line")
+this is a new line
+New line
+string1="PYTHON TUTORIAL"
+print(string1[0])
+P
+print(string1[-15])
+P
+print(string1[-1])
+L
+print(string1[4])
+O
+print(string1[-11])
+O
+my_list1=[5,12,13,14]
+print(my_list1)
+[5, 12, 13, 14]
+my_list2=['red','blue','black','white']
+print(my_list2)
+['red', 'blue', 'black', 'white']
+my_list3=['red',12,112.12]
+print(my_list3)
+['red', 12, 112.12]
+my_list=[]
+print(my_list)
+[]
+color_list=["RED","Blue","Green","Black"]
+color_list[0]
+'RED'
+print(color_list[0],color_list[3])
+RED Black
+color_list[-1]
+'Black'
+color_list=["RED","Blue","Green","Black"]
+print(color_list[0:2])
+['RED', 'Blue']
+print(color_list[1:2])
+['Blue']
+print(color_list[1:-2])
+['Blue']
+print(color_list[:3])
+['RED', 'Blue', 'Green']
+print(color_list[:])
+['RED', 'Blue', 'Green', 'Black']
