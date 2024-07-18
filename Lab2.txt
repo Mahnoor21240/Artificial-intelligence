@@ -36,7 +36,7 @@ for letter in 'geeksforgreek':
   
 #Functions
 def myname():
-    print("My name is Ayesha Khalil")
+    print("My name is Mahnoor Mansoor")
 myname()
 for i in range(len(list)):
     print(i)
